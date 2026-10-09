@@ -1,112 +1,89 @@
 <div align="center">
 
-<!-- HERO COCKPIT HEADER -->
+<!-- APPLE MACOS GLASS HERO WINDOW -->
 <a href="https://leonel59.github.io/Llmejiar-Portafolio/" target="_blank">
-  <img src="assets/hero-cockpit.svg" width="980" alt="Luis Leonel Mejía Romero · Systems Architect & Lead Full Stack Engineer">
+  <img src="assets/apple-hero.svg" width="980" alt="Luis Leonel Mejia Romero — Systems Architecture">
 </a>
 
 <br><br>
 
-<!-- ANIMATED TYPING EXECUTIVE BADGE -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=20&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=980&lines=Luis+Leonel+Mej%C3%ADa+Romero+%E2%80%94+Lead+Full+Stack+Engineer;Co-Creator+%26+Architect+of+SGI-UNAH+(sgi.unah.edu.hn);Production+Scale%3A+%2B1%2C630+Researchers+%E2%80%A2+%2B1%2C220+Science+Projects;Cryptographic+Anti-Tamper+QR+Validation+Engine;International+Speaker+%40+COMPDES+2026+(El+Salvador)" alt="Executive Typing Subtitle">
-
-<br>
-
-<!-- PROFILE VIEWS TELEMETRY -->
-<img src="https://komarev.com/ghpvc/?username=Leonel59&style=flat-square&color=0284c7&label=SYSTEM+VISITORS" alt="System Visitors">
+<!-- MINIMALIST VISITOR BADGE -->
+<img src="https://komarev.com/ghpvc/?username=Leonel59&style=flat-square&color=0284c7&label=VISITAS" alt="Contador de Visitas">
 
 </div>
 
 ---
 
-### 🏛️ Topología de Sistemas & Pipeline Full Stack
+### Arquitectura de Sistemas &amp; Pipeline de Producción
 
-> Arquitectura desacoplada de cuatro capas en producción real para el **SGI (Sistema de Gestión de la Investigación - UNAH)**, integrando reactividad en cliente, validaciones criptográficas en gateway, lógica de negocio modular y persistencia relacional transaccional.
+> Topología desacoplada de cuatro capas en producción institucional para el Sistema de Gestión de la Investigación (UNAH), integrando interfaces reactivas en cliente, gateway criptográfico, servicios modulares de dominio y persistencia relacional transaccional.
 
 <p align="center">
-  <img src="assets/architecture-diagram.svg" width="980" alt="Production Architecture Pipeline">
+  <img src="assets/apple-architecture.svg" width="980" alt="Arquitectura de Sistemas">
 </p>
 
 ---
 
-### 🛡️ Principios de Ingeniería & Estándares de Calidad
+### Principios de Ingeniería &amp; Estándares de Calidad
 
-> Diseñado bajo estrictas normas de robustez institucional, priorizando integridad de datos, tolerancia a fallos y mantenibilidad a largo plazo.
+> Directrices técnicas orientadas a robustez institucional, tolerancia a fallos, mantenibilidad a largo plazo y seguridad integral de datos.
 
 <p align="center">
-  <img src="assets/engineering-principles.svg" width="980" alt="Core Engineering Principles">
+  <img src="assets/apple-principles.svg" width="980" alt="Principios de Ingeniería">
 </p>
 
 ---
 
-### ⚡ Arsenal Técnico & Ecosistema Empresarial
+### Ecosistema Tecnológico &amp; Herramientas
 
-> Herramientas, lenguajes y servicios consolidados en sistemas desplegados con alta concurrencia y cero tolerancia a brechas de seguridad.
+> Lenguajes, librerías y servicios aplicados en entornos de alta concurrencia y despliegues oficiales.
 
 <p align="center">
-  <img src="assets/tech-stack-enterprise.svg" width="980" alt="Enterprise Technical Matrix">
+  <img src="assets/apple-tech.svg" width="980" alt="Ecosistema Tecnológico">
 </p>
 
 ---
 
-### 💼 Casos de Estudio & Proyectos de Misión Crítica
+### Soluciones en Producción &amp; Casos de Estudio
 
-> Soluciones de software gubernamental y universitario con impacto directo en miles de usuarios activos y gobernanza digital.
+> Software de misión crítica desplegado y utilizado activamente en la gestión científica y académica universitaria.
 
 <p align="center">
-  <img src="assets/projects-showcase.svg" width="980" alt="Mission-Critical Projects & Impact Case Studies">
+  <img src="assets/apple-projects.svg" width="980" alt="Soluciones en Producción">
 </p>
 
 <div align="center">
   <a href="https://sgi.unah.edu.hn" target="_blank">
-    <img src="https://img.shields.io/badge/Plataforma_SGI-sgi.unah.edu.hn-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SGI UNAH Portal">
+    <img src="https://img.shields.io/badge/Plataforma_SGI-sgi.unah.edu.hn-0284C7?style=flat-square&logo=googlechrome&logoColor=white" alt="Plataforma SGI">
   </a>&nbsp;&nbsp;
   <a href="https://leonel59.github.io/Llmejiar-Portafolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portafolio_Técnico-Ver_Showcase_En_Vivo-10B981?style=for-the-badge&logo=safari&logoColor=white" alt="Portafolio Técnico">
+    <img src="https://img.shields.io/badge/Portafolio_Técnico-Ver_Showcase-10B981?style=flat-square&logo=safari&logoColor=white" alt="Portafolio Técnico">
   </a>&nbsp;&nbsp;
   <a href="https://leonel59.github.io/presentacion-compdes-2026/" target="_blank">
-    <img src="https://img.shields.io/badge/Conferencia_COMPDES-Presentación_Interactiva-8B5CF6?style=for-the-badge&logo=slideshare&logoColor=white" alt="COMPDES 2026 Presentation">
+    <img src="https://img.shields.io/badge/Conferencia_COMPDES-Presentación-8B5CF6?style=flat-square&logo=slideshare&logoColor=white" alt="Conferencia COMPDES">
   </a>
 </div>
 
 ---
 
-### 📊 Telemetría de Código & Actividad Global
-
-<div align="center">
-
-<a href="https://git.io/streak-stats" target="_blank">
-  <img src="https://streak-stats.demolab.com?user=Leonel59&theme=dark&background=0B0F19&border=1E293B&stroke=38BDF8&ring=10B981&fire=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B&hide_border=false" alt="GitHub Streak">
-</a>
-
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Leonel59&show_icons=true&bg_color=0B0F19&border_color=1E293B&title_color=38BDF8&text_color=94A3B8&icon_color=10B981&count_private=true" alt="GitHub Stats">
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonel59&layout=compact&bg_color=0B0F19&border_color=1E293B&title_color=38BDF8&text_color=94A3B8" alt="Top Languages">
-
-</div>
-
----
-
-### 📬 Canales Directos & Red Profesional
+### Canales Directos &amp; Red Profesional
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/luis-leonel-romero-16a11b399/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Perfil_Profesional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-Perfil_Profesional-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>&nbsp;&nbsp;
 <a href="https://leonel59.github.io/Llmejiar-Portafolio/" target="_blank">
-  <img src="https://img.shields.io/badge/Portafolio_Web-Sitio_Oficial-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portafolio">
+  <img src="https://img.shields.io/badge/Portafolio_Web-Sitio_Oficial-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white" alt="Portafolio">
 </a>&nbsp;&nbsp;
 <a href="mailto:luisleonel596@gmail.com">
-  <img src="https://img.shields.io/badge/Email-luisleonel596@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <img src="https://img.shields.io/badge/Correo-luisleonel596@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Correo">
+</a>&nbsp;&nbsp;
+<a href="https://github.com/Leonel59" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-@Leonel59-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
 </a>&nbsp;&nbsp;
 <a href="https://gitlab.com/Leonel59" target="_blank">
-  <img src="https://img.shields.io/badge/GitLab-@Leonel59-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab">
-</a>&nbsp;&nbsp;
-<a href="https://wa.me/50496314089" target="_blank">
-  <img src="https://img.shields.io/badge/WhatsApp-+504_9631--4089-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/GitLab-@Leonel59-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab">
 </a>
 
 </div>
@@ -114,5 +91,5 @@
 <br><br>
 
 <div align="center">
-  <sub>Desarrollado con precisión arquitectónica por <strong>Luis Leonel Mejía Romero</strong> · Tegucigalpa, Honduras</sub>
+  <sub>Arquitectura e ingeniería de software · <strong>Luis Leonel Mejía Romero</strong> · Tegucigalpa, Honduras</sub>
 </div>

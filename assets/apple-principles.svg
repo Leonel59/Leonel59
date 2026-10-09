@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 170" width="980" height="170" role="img" aria-labelledby="princTitle princDesc">
+  <title id="princTitle">Principios de Ingeniería · Calidad de Grado Institucional</title>
+  <desc id="princDesc">Tres pilares de diseño: Seguridad Zero-Trust, Escalabilidad de Misión Crítica y Modularidad en Ciencia Abierta.</desc>
+  <defs>
+    <linearGradient id="pSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="pRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="980" height="170" rx="18" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1.2"/>
+
+  <!-- CARD 1 -->
+  <g transform="translate(24, 20)">
+    <rect width="296" height="130" rx="14" fill="url(#pSurface)" stroke="url(#pRim)" stroke-width="1"/>
+    <text x="20" y="32" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="700" letter-spacing="1">01 · SEGURIDAD INSTITUCIONAL</text>
+    <text x="20" y="56" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="15" font-weight="600">Zero-Trust &amp; Criptografía</text>
+    <text x="20" y="82" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400">
+      Firmas con hash SHA-256 en códigos QR,
+    </text>
+    <text x="20" y="100" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400">
+      sesiones rolling JWT y SQL parametrizado.
+    </text>
+  </g>
+
+  <!-- CARD 2 -->
+  <g transform="translate(342, 20)">
+    <rect width="296" height="130" rx="14" fill="url(#pSurface)" stroke="url(#pRim)" stroke-width="1"/>
+    <text x="20" y="32" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="700" letter-spacing="1">02 · ALTA DISPONIBILIDAD</text>
+    <text x="20" y="56" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="15" font-weight="600">Escalabilidad de Misión Crítica</text>
+    <text x="20" y="82" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400">
+      Capacidad para más de 1,630 usuarios,
+    </text>
+    <text x="20" y="100" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400">
+      alta concurrencia y 99% de optimización.
+    </text>
+  </g>
+
+  <!-- CARD 3 -->
+  <g transform="translate(660, 20)">
+    <rect width="296" height="130" rx="14" fill="url(#pSurface)" stroke="url(#pRim)" stroke-width="1"/>
+    <text x="20" y="32" fill="#A78BFA" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="700" letter-spacing="1">03 · INVESTIGACIÓN &amp; DSR</text>
+    <text x="20" y="56" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="15" font-weight="600">Modularidad &amp; Ciencia Abierta</text>
+    <text x="20" y="82" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400">
+      Metodología ágil presentada en la
+    </text>
+    <text x="20" y="100" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400">
+      conferencia internacional COMPDES 2026.
+    </text>
+  </g>
+</svg>

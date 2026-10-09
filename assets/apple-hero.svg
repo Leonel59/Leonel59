@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Luis Leonel Mejia Romero · Systems Architecture</title>
+  <desc id="heroDesc">Apple-inspired macOS glassmorphism hero window showing Luis Leonel's identity, verified metrics and production system status.</desc>
+  <defs>
+    <!-- Background Canvas -->
+    <linearGradient id="appleBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B0D14"/>
+      <stop offset="100%" stop-color="#030407"/>
+    </linearGradient>
+
+    <!-- Frosted Glass Surface Gradient -->
+    <linearGradient id="glassSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Specular Rim Border Gradient -->
+    <linearGradient id="glassRim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="80%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Card Glass Fill -->
+    <linearGradient id="cardGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.015"/>
+    </linearGradient>
+
+    <!-- Card Rim -->
+    <linearGradient id="cardRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <!-- Text Shimmer -->
+    <linearGradient id="textShimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <!-- Deep Ambient Glow Filter -->
+    <filter id="auroraBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="60" result="blur"/>
+    </filter>
+
+    <filter id="glassShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="28" stdDeviation="36" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+
+    <clipPath id="windowClip">
+      <rect x="20" y="20" width="960" height="410" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1000" height="450" rx="24" fill="url(#appleBg)"/>
+
+  <!-- ================= AMBIENT AURORA (BEHIND GLASS) ================= -->
+  <g clip-path="url(#windowClip)">
+    <!-- Cyan Aurora Orb with float animation -->
+    <ellipse cx="220" cy="140" rx="240" ry="160" fill="#0284C7" opacity="0.24" filter="url(#auroraBlur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 40 -20; -30 30; 0 0" dur="16s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Indigo Aurora Orb -->
+    <ellipse cx="780" cy="200" rx="260" ry="180" fill="#4F46E5" opacity="0.22" filter="url(#auroraBlur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -50 30; 30 -40; 0 0" dur="20s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Emerald Glow Orb -->
+    <ellipse cx="500" cy="380" rx="220" ry="140" fill="#059669" opacity="0.18" filter="url(#auroraBlur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 30 -30; -20 10; 0 0" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- ================= MACOS FROSTED GLASS WINDOW ================= -->
+  <rect x="20" y="20" width="960" height="410" rx="20" fill="url(#glassSurface)" stroke="url(#glassRim)" stroke-width="1.2" filter="url(#glassShadow)"/>
+
+  <!-- Window Header Bar -->
+  <path d="M20 20 Q 20 20 20 20 H 980 V 68 H 20 Z" fill="#FFFFFF" fill-opacity="0.03"/>
+  <line x1="20" y1="68" x2="980" y2="68" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Traffic Lights (macOS High Gloss) -->
+  <circle cx="48" cy="44" r="6" fill="#FF5F56"/>
+  <circle cx="68" cy="44" r="6" fill="#FFBD2E"/>
+  <circle cx="88" cy="44" r="6" fill="#27C93F"/>
+
+  <!-- Centered Titlebar Status -->
+  <text x="500" y="48" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif" font-size="12" font-weight="500" letter-spacing="0.4">
+    Luis Leonel Mejia Romero — Systems Architecture
+  </text>
+
+  <!-- Right Status Pill -->
+  <g transform="translate(814, 33)">
+    <rect width="138" height="22" rx="11" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <!-- Breathing Green LED -->
+    <circle cx="14" cy="11" r="3.5" fill="#34D399"/>
+    <circle cx="14" cy="11" r="3.5" fill="none" stroke="#34D399" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="3.5;8" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="24" y="15" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="10" font-weight="600" letter-spacing="0.5">SGI PRODUCTION</text>
+  </g>
+
+  <!-- ================= HERO CONTENT ================= -->
+  <!-- Category Pill -->
+  <g transform="translate(52, 94)">
+    <rect width="170" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.15"/>
+    <text x="85" y="16" text-anchor="middle" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="10.5" font-weight="600" letter-spacing="1">FULL STACK ARCHITECT</text>
+  </g>
+
+  <!-- Developer Name -->
+  <text x="52" y="160" fill="url(#textShimmer)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="38" font-weight="700" letter-spacing="-0.8">
+    Luis Leonel Mejía Romero
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="52" y="192" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="15" font-weight="500">
+    Lead Full Stack Engineer · Co-Creador SGI-UNAH · Lic. en Informática Administrativa
+  </text>
+
+  <!-- Mission Statement -->
+  <text x="52" y="218" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13.5" font-weight="400">
+    Ingeniería de software institucional de alta concurrencia, plataformas CRIS y validación criptográfica.
+  </text>
+
+  <!-- ================= 4 APPLE GLASS KPI WIDGETS ================= -->
+  <!-- WIDGET 1 -->
+  <g transform="translate(52, 252)">
+    <rect width="206" height="142" rx="16" fill="url(#cardGlass)" stroke="url(#cardRim)" stroke-width="1"/>
+    <text x="20" y="38" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5">+1,630</text>
+    <text x="20" y="66" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13.5" font-weight="600">Investigadores</text>
+    <text x="20" y="90" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12">Comunidad activa</text>
+    <text x="20" y="112" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11">Plataforma CRIS nacional</text>
+  </g>
+
+  <!-- WIDGET 2 -->
+  <g transform="translate(278, 252)">
+    <rect width="206" height="142" rx="16" fill="url(#cardGlass)" stroke="url(#cardRim)" stroke-width="1"/>
+    <text x="20" y="38" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5">+1,220</text>
+    <text x="20" y="66" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13.5" font-weight="600">Proyectos</text>
+    <text x="20" y="90" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12">Gestión científica</text>
+    <text x="20" y="112" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11">Dictámenes y seguimiento</text>
+  </g>
+
+  <!-- WIDGET 3 -->
+  <g transform="translate(504, 252)">
+    <rect width="206" height="142" rx="16" fill="url(#cardGlass)" stroke="url(#cardRim)" stroke-width="1"/>
+    <text x="20" y="38" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5">99%</text>
+    <text x="20" y="66" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13.5" font-weight="600">Optimización</text>
+    <text x="20" y="90" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12">Reducción de tiempos</text>
+    <text x="20" y="112" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11">Trámites institucionales</text>
+  </g>
+
+  <!-- WIDGET 4 -->
+  <g transform="translate(730, 252)">
+    <rect width="206" height="142" rx="16" fill="url(#cardGlass)" stroke="url(#cardRim)" stroke-width="1"/>
+    <text x="20" y="38" fill="#A78BFA" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5">+113</text>
+    <text x="20" y="66" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13.5" font-weight="600">Certificados QR</text>
+    <text x="20" y="90" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12">Validación criptográfica</text>
+    <text x="20" y="112" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11">Firma anti-falsificación</text>
+  </g>
+</svg>
