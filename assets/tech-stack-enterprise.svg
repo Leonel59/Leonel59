@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320" role="img" aria-labelledby="techTitle techDesc">
+  <title id="techTitle">Enterprise Technology Matrix · Luis Leonel Mejia Romero</title>
+  <desc id="techDesc">Categorized enterprise technology stack across Frontend, Backend, Databases, and Cloud/Security tiers.</desc>
+  <defs>
+    <linearGradient id="tCardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="960" height="320" rx="14" fill="#0B0F19" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Header -->
+  <text x="36" y="36" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">TECHNICAL STACK // ENTERPRISE PRODUCTION ARSENAL</text>
+  <text x="924" y="36" text-anchor="end" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">BATTLE-TESTED IN REAL DEPLOYMENTS</text>
+  <line x1="36" y1="48" x2="924" y2="48" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- ================= CARD 1: FRONTEND REACTIVO ================= -->
+  <g transform="translate(36, 68)">
+    <rect width="426" height="110" rx="9" fill="url(#tCardBg)" stroke="#38BDF8" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="110" rx="2" fill="#38BDF8"/>
+    <text x="20" y="26" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">01 · FRONTEND REACTIVO &amp; MÓVIL</text>
+    
+    <!-- Pills -->
+    <g transform="translate(20, 42)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="94" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="47" y="16" text-anchor="middle" fill="#E2E8F0">Angular 18</text>
+
+      <rect x="102" y="0" width="98" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="151" y="16" text-anchor="middle" fill="#E2E8F0">TypeScript</text>
+
+      <rect x="208" y="0" width="100" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="258" y="16" text-anchor="middle" fill="#38BDF8">RxJS &amp; Signals</text>
+
+      <rect x="316" y="0" width="84" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="358" y="16" text-anchor="middle" fill="#E2E8F0">PrimeNG</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="32" width="124" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="62" y="48" text-anchor="middle" fill="#E2E8F0">Angular Material</text>
+
+      <rect x="132" y="32" width="124" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="194" y="48" text-anchor="middle" fill="#E2E8F0">Capacitor (Mobile)</text>
+
+      <rect x="264" y="32" width="96" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="312" y="48" text-anchor="middle" fill="#E2E8F0">PWA &amp; SSR</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 2: BACKEND & SERVICIOS REST ================= -->
+  <g transform="translate(498, 68)">
+    <rect width="426" height="110" rx="9" fill="url(#tCardBg)" stroke="#10B981" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="110" rx="2" fill="#10B981"/>
+    <text x="20" y="26" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">02 · BACKEND &amp; SERVICIOS REST</text>
+    
+    <!-- Pills -->
+    <g transform="translate(20, 42)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="76" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="38" y="16" text-anchor="middle" fill="#E2E8F0">Node.js</text>
+
+      <rect x="84" y="0" width="112" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="140" y="16" text-anchor="middle" fill="#E2E8F0">Express APIs</text>
+
+      <rect x="204" y="0" width="138" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="273" y="16" text-anchor="middle" fill="#10B981">JWT Rolling Sessions</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="32" width="144" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="72" y="48" text-anchor="middle" fill="#E2E8F0">Firebase Web Push</text>
+
+      <rect x="152" y="32" width="96" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="200" y="48" text-anchor="middle" fill="#E2E8F0">Nodemailer</text>
+
+      <rect x="256" y="32" width="144" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="328" y="48" text-anchor="middle" fill="#E2E8F0">express-validator</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 3: BASES DE DATOS ================= -->
+  <g transform="translate(36, 192)">
+    <rect width="426" height="110" rx="9" fill="url(#tCardBg)" stroke="#A78BFA" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="110" rx="2" fill="#A78BFA"/>
+    <text x="20" y="26" fill="#A78BFA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">03 · BASES DE DATOS &amp; PERSISTENCIA</text>
+    
+    <!-- Pills -->
+    <g transform="translate(20, 42)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="148" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="74" y="16" text-anchor="middle" fill="#A78BFA">Microsoft SQL Server</text>
+
+      <rect x="156" y="0" width="112" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="212" y="16" text-anchor="middle" fill="#E2E8F0">T-SQL Avanzado</text>
+
+      <rect x="276" y="0" width="134" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="343" y="16" text-anchor="middle" fill="#E2E8F0">Stored Procedures</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="32" width="166" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="83" y="48" text-anchor="middle" fill="#E2E8F0">SQL Parametrizado (mssql)</text>
+
+      <rect x="174" y="32" width="76" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="212" y="48" text-anchor="middle" fill="#E2E8F0">MySQL</text>
+
+      <rect x="258" y="32" width="144" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="330" y="48" text-anchor="middle" fill="#E2E8F0">Transacciones ACID</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 4: CLOUD & SEGURIDAD ================= -->
+  <g transform="translate(498, 192)">
+    <rect width="426" height="110" rx="9" fill="url(#tCardBg)" stroke="#FB7185" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="110" rx="2" fill="#FB7185"/>
+    <text x="20" y="26" fill="#FB7185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5">04 · CLOUD, SEGURIDAD &amp; CALIDAD</text>
+    
+    <!-- Pills -->
+    <g transform="translate(20, 42)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="164" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="82" y="16" text-anchor="middle" fill="#FB7185">Validador Cripto QR</text>
+
+      <rect x="172" y="0" width="116" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="230" y="16" text-anchor="middle" fill="#E2E8F0">OWASP Security</text>
+
+      <rect x="296" y="0" width="112" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="352" y="16" text-anchor="middle" fill="#E2E8F0">Azure (MSAL)</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="32" width="76" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="38" y="48" text-anchor="middle" fill="#E2E8F0">Docker</text>
+
+      <rect x="84" y="32" width="86" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="127" y="48" text-anchor="middle" fill="#E2E8F0">AWS S3</text>
+
+      <rect x="178" y="32" width="116" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="236" y="48" text-anchor="middle" fill="#E2E8F0">GitLab CI/CD</text>
+
+      <rect x="302" y="32" width="108" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="356" y="48" text-anchor="middle" fill="#E2E8F0">Jasmine/Karma</text>
+    </g>
+  </g>
+</svg>

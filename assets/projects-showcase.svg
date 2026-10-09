@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" role="img" aria-labelledby="projTitle projDesc">
+  <title id="projTitle">Mission-Critical Projects &amp; Impact Case Studies</title>
+  <desc id="projDesc">Featured enterprise projects: SGI UNAH CRIS Platform, Cryptographic QR Engine, and COMPDES 2026 International Research.</desc>
+  <defs>
+    <linearGradient id="pCardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="badgeSGI" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="badgeQR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="badgeCOMP" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="960" height="380" rx="14" fill="#0B0F19" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Section Header -->
+  <text x="36" y="36" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">SYSTEM HIGHLIGHTS // PRODUCTION SOLUTIONS &amp; RESEARCH</text>
+  <text x="924" y="36" text-anchor="end" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">DEPLOYED · PROVEN · SECURE</text>
+  <line x1="36" y1="48" x2="924" y2="48" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- ================= PROJECT 1: SGI UNAH ================= -->
+  <g transform="translate(36, 68)">
+    <rect width="888" height="88" rx="9" fill="url(#pCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="88" rx="2.5" fill="#38BDF8"/>
+
+    <!-- Left Badge & Title -->
+    <rect x="20" y="14" width="160" height="20" rx="4" fill="#0369A1" opacity="0.3"/>
+    <text x="26" y="28" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">PRODUCCIÓN · SGI.UNAH.EDU.HN</text>
+
+    <text x="20" y="52" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">
+      SGI — Sistema de Gestión de la Investigación (UNAH)
+    </text>
+    <text x="20" y="72" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      Plataforma institucional CRIS. Administra a <tspan fill="#38BDF8" font-weight="600">+1,630 investigadores</tspan>, <tspan fill="#38BDF8" font-weight="600">+1,220 proyectos</tspan> y redujo tiempos de dictamen del 75% al 99%.
+    </text>
+
+    <!-- Right Tech Tags -->
+    <g transform="translate(620, 24)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">
+      <rect x="0" y="0" width="76" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="38" y="15" text-anchor="middle">Angular 18</text>
+
+      <rect x="84" y="0" width="62" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="115" y="15" text-anchor="middle">Node.js</text>
+
+      <rect x="154" y="0" width="94" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="201" y="15" text-anchor="middle">SQL Server</text>
+
+      <rect x="84" y="28" width="84" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="126" y="43" text-anchor="middle">CRIS Arch</text>
+
+      <rect x="176" y="28" width="72" height="22" rx="4" fill="#0F172A" stroke="#38BDF8"/>
+      <text x="212" y="43" text-anchor="middle" fill="#38BDF8">JWT Rolling</text>
+    </g>
+  </g>
+
+  <!-- ================= PROJECT 2: VALIDADOR QR ================= -->
+  <g transform="translate(36, 168)">
+    <rect width="888" height="88" rx="9" fill="url(#pCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="88" rx="2.5" fill="#10B981"/>
+
+    <!-- Left Badge & Title -->
+    <rect x="20" y="14" width="168" height="20" rx="4" fill="#065F46" opacity="0.3"/>
+    <text x="26" y="28" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">SEGURIDAD · INTEGRIDAD CRIPTO</text>
+
+    <text x="20" y="52" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">
+      Validador Institucional Criptográfico de Certificados QR
+    </text>
+    <text x="20" y="72" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      Motor de emisión y verificación pública instantánea. <tspan fill="#34D399" font-weight="600">+113 certificados emitidos</tspan> con hash criptográfico anti-falsificación e integridad garantizada.
+    </text>
+
+    <!-- Right Tech Tags -->
+    <g transform="translate(620, 24)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">
+      <rect x="0" y="0" width="96" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="48" y="15" text-anchor="middle">Cryptography</text>
+
+      <rect x="104" y="0" width="68" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="138" y="15" text-anchor="middle">SHA-256</text>
+
+      <rect x="180" y="0" width="68" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="214" y="15" text-anchor="middle">QR Engine</text>
+
+      <rect x="94" y="28" width="74" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="131" y="43" text-anchor="middle">Express</text>
+
+      <rect x="176" y="28" width="72" height="22" rx="4" fill="#0F172A" stroke="#10B981"/>
+      <text x="212" y="43" text-anchor="middle" fill="#34D399">Anti-Tamper</text>
+    </g>
+  </g>
+
+  <!-- ================= PROJECT 3: COMPDES 2026 ================= -->
+  <g transform="translate(36, 268)">
+    <rect width="888" height="88" rx="9" fill="url(#pCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="5" height="88" rx="2.5" fill="#A78BFA"/>
+
+    <!-- Left Badge & Title -->
+    <rect x="20" y="14" width="186" height="20" rx="4" fill="#5B21B6" opacity="0.3"/>
+    <text x="26" y="28" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">CONFERENCIA · EL SALVADOR 2026</text>
+
+    <text x="20" y="52" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">
+      Ponencia Internacional COMPDES 2026 — Transformación Digital
+    </text>
+    <text x="20" y="72" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      Presentación sobre arquitectura modular en Ciencia Abierta, marco metodológico DBR/DSR e impacto en la gobernanza universitaria.
+    </text>
+
+    <!-- Right Tech Tags -->
+    <g transform="translate(620, 24)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">
+      <rect x="0" y="0" width="88" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="44" y="15" text-anchor="middle">Open Science</text>
+
+      <rect x="96" y="0" width="76" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="134" y="15" text-anchor="middle">DBR / DSR</text>
+
+      <rect x="180" y="0" width="68" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="214" y="15" text-anchor="middle">Research</text>
+
+      <rect x="64" y="28" width="104" height="22" rx="4" fill="#0F172A" stroke="#334155"/>
+      <text x="116" y="43" text-anchor="middle">Keynote Speaker</text>
+
+      <rect x="176" y="28" width="72" height="22" rx="4" fill="#0F172A" stroke="#A78BFA"/>
+      <text x="212" y="43" text-anchor="middle" fill="#A78BFA">Modular CRIS</text>
+    </g>
+  </g>
+</svg>
