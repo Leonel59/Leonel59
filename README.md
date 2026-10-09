@@ -5,11 +5,6 @@
   <img src="assets/apple-hero.svg" width="980" alt="Luis Leonel Mejia Romero — Systems Architecture">
 </a>
 
-<br><br>
-
-<!-- MINIMALIST VISITOR BADGE -->
-<img src="https://komarev.com/ghpvc/?username=Leonel59&style=flat-square&color=0284c7&label=VISITAS" alt="Contador de Visitas">
-
 </div>
 
 ---
